@@ -69,38 +69,37 @@
     <a class="btn btn-primary"  href="https://web.telegram.org/k/#@pygrammers_official" target="_blank">Telegram</a>
   </section>
 
-  <main id="Register" class="justify-content-center">
-    <div class="row w-100 p-4 container mx-auto justify-content-center">
-      <form class="text-center border border-dark p-4">
-        <h4>Form:</h4>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="text" class="form-control">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Mobile Number</label>
-            <input type="text" class="form-control">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
+      <div class="container-fluid col-12 col-xl-5">
+      <form class="p-5">
+          <legend class="text-center">Form:</legend>
+          <div class="mb-3 text-center">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" id="name">
+          </div>
+          <div class="mb-3 text-center">
+              <label class="form-label">Mobile number</label>
+              <input type="text" class="form-control" id="name">
+          </div>
+          <div class="mb-3 text-center">
+            <label for="InputEmail1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Company / Institution Name</label>
-            <input type="text" class="form-control">
-        </div>
-        <div class="form-group">
-            <small class="form-text text-muted">Upload a short video or image of hand written sheet showing your interest 
-            to join build.myweb</small>
-            <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        </div>
-        <div class="form-group">
-            <input type="number" class="form-control" min="0" placeholder="Have you attended any events by Pygrammers before?">
-        </div>
-        <button type="submit" class="btn btn-secondary" style="width: 300px;">Submit Form</button>
-      </form>
-    </div>
-  </main>
+          </div>
+          <div class="mb-3 text-center">
+            <label class="form-label">Company / Institution name</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+          </div>
+                  <div class="mb-3 ps-4 text-start">
+              <div class="form-text">Upload a short video or image of hand written sheet showing your interest to join build.myweb</div>
+              <input type="file">
+          </div><br>
+          <div class="mb-3 text-center">
+              <input type="number" class="form-control" placeholder="Have you attended any events by Pygrammers before?!">
+          </div><br>
+          <div class="mb-3 text-center">
+          <button type="button" class="btn btn-light btn-lg custom" style="background-color:rgb(155, 218, 209)">Submit form</button>
+          </div>
+        </form>
+      </div>
 
   <section id="mentor" class="bg-light p-4">
     <div class="container text-center">
